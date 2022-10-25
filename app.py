@@ -83,6 +83,9 @@ dependent1 = col1.selectbox("Select a Independent Varaible for Model Train:", co
 figOls = px.scatter(dfState1, x=independent1, y=dependent1, trendline="ols", color='unformattedPrice')
 figOls.update_layout(height=750)
 col1.plotly_chart(figOls ,height=750, use_container_width=True)
+results1 = px.get_trendline_results(figOls)
+statsSummary1 = results1.iloc[0][0].summary()
+col1.text(statsSummary1)
 
 
 #dfCorr = df[['unformattedPrice','zestimate','addressStreet','addressCity', 'addressZipcode','latitude', 'longitude','beds', 'baths', 'area','lotAreaValue']]
@@ -138,3 +141,7 @@ dependent2 = col2.selectbox("Select a Independent Varaible for Right Col Model T
 figOls2 = px.scatter(dfState2, x=independent2, y=dependent2, trendline="ols", color='unformattedPrice')
 figOls2.update_layout(height=750)
 col2.plotly_chart(figOls2, height=750, use_container_width=True)
+results = px.get_trendline_results(figOls2)
+statsSummary2 = results.iloc[0][0].summary()
+col2.text(statsSummary)
+
