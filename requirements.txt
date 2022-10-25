@@ -3,5 +3,5 @@ pandas
 plotly
 scikit-learn
 streamlit
-
+statsmodels
 
