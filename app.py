@@ -143,5 +143,5 @@ figOls2.update_layout(height=750)
 col2.plotly_chart(figOls2, height=750, use_container_width=True)
 results = px.get_trendline_results(figOls2)
 statsSummary2 = results.iloc[0][0].summary()
-col2.text(statsSummary)
+col2.text(statsSummary2)
 
