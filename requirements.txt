@@ -1,13 +1,7 @@
-numpy==1.23.4
-pandas==1.5.1
-pip==22.2.2
-plotly==5.9.0
-ply==3.11
-scikit-learn==1.1.2
-scipy==1.7.3
-sqlalchemy==1.4.42
-stack_data==0.2.0
-statsmodels==0.13.2
-streamlit==1.11.0
+numpy
+pandas
+plotly
+scikit-learn
+streamlit
 
 
