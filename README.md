@@ -12,7 +12,7 @@ This project uses the following libraries:
 
 ## To get started with this project, you can clone this repository by running the following command:
 ```
-git clone https://github.com/username/repository_name.git
+git clone https://github.com/DarienNouri/Streamlit-RE-Analysis-Web-App.git
 ```
 Once you have cloned the repository, navigate to the project directory and install the necessary dependencies by running:
 ```
